@@ -1,5 +1,6 @@
 # WP-Pil
 
+Based on https://github.com/gilbitron/Pil - add this function to your functions.php file to generate TinyMCE markup when an image is inserted. 
 
           function html5_insert_image($html, $id, $caption, $title, $align, $url) {
           	$image_attributes = wp_get_attachment_image_src(  $id, $size = 'large', $icon = false  ); // returns an array
